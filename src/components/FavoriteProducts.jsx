@@ -58,7 +58,7 @@ const FavoriteProducts = () => {
                   </div>
                 </div>
                 <div className='p-3 mt-2'>
-                  <h3 className="sm:text-xl text-3xl font-bold mb-4">{car.name}</h3>
+                  <h3 className="text-[18px] font-bold mb-4">{car.name}</h3>
                   
                   {/* Car Specifications */}
                   <div className="grid grid-cols-2 gap-4 mb-2">

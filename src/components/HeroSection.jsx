@@ -6,7 +6,7 @@ import CarSearchWidget from './CarSearchWidget';
 
 const HeroSection = () => {
   return (
-    <div className="relative sm:h-[650px] h-[650px] overflow-visible bg-black flex justify-center sm:mb-[400px] mb-[600px]">
+    <div className="relative sm:h-[550px] h-[650px] overflow-visible bg-black flex justify-center sm:mb-[400px] mb-[600px]">
       {/* Background Video or Image */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent z-10"></div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-14">
+            <div className="flex flex-col sm:flex-row gap-4 mb-5">
               <Link
                 to="/products"
                 className="inline-flex items-center justify-center bg-primary text-white px-8 py-2 rounded-lg font-bold text-sm hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
