@@ -82,7 +82,7 @@ const Products = () => {
                   <div className="flex items-center justify-between">
                     <div className="text-grey">
                       <span className="block text-xs">Daily Rate</span>
-                      <span className="sm:text-xs text-md font-bold text-white">{product.price} MAD/Day</span>
+                      <span className="sm:text-xs text-md font-bold text-white">{product.price} MAD/day</span>
                     </div>
                     <div className='flex justify-center items-center'>
                       <Link to={`/products/${product.id}`} className="bg-primary text-white sm:px-3 px-5 py-2 rounded-md hover:bg-blue-700 flex items-center sm:text-xs text-md font-bold">

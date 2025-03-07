@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus, faCar } from '@fortawesome/free-solid-svg-icons';
 
-import logo from '../assets/img/valuedlanguages.png';
+import logo from '../assets/img/MoroccanCars.png';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
