@@ -2,19 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRightIcon } from '@heroicons/react/solid';
 import banner from '../assets/img/car2.gif';
+import CarSearchWidget from './CarSearchWidget';
 
 const HeroSection = () => {
   return (
-    <div className="relative sm:h-[700px] h-[800px] overflow-hidden bg-black flex justify-center">
+    <div className="relative sm:h-[650px] h-[650px] overflow-visible bg-black flex justify-center sm:mb-[400px] mb-[600px]">
       {/* Background Video or Image */}
-      <div className="absolute inset-0 ">
+      <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent z-10"></div>
         <video
           autoPlay
           loop
           muted
           className="w-full h-full object-cover"
-          poster= {banner}
+          poster={banner}
         >
           <source src="/src/assets/video/car-video.mp4" type="video/mp4" />
           {/* Fallback image if video doesn't load */}
@@ -31,7 +32,7 @@ const HeroSection = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-3xl">
             {/* Animated Badge */}
-            <div className="inline-block mb-6 ">
+            <div className="inline-block mb-6">
               <div className="flex items-center bg-primary/10 backdrop-blur-sm rounded-full px-4 py-2 text-primary animate-pulse">
                 <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
                 <span className="text-sm font-medium">Premium Car Rental Service</span>
@@ -51,7 +52,7 @@ const HeroSection = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-14">
               <Link
                 to="/products"
                 className="inline-flex items-center justify-center bg-primary text-white px-8 py-2 rounded-lg font-bold text-sm hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
@@ -66,31 +67,13 @@ const HeroSection = () => {
                 Contact Us
               </Link>
             </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 mt-16 ">
-              <div className="text-center hidden sm:block">
-                <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500+</div>
-                <p className="text-gray-400 text-white">Happy Customers</p>
-              </div>
-              <div className="text-center">
-                <div className=" text-3xl md:text-4xl font-bold text-primary mb-2">100%</div>
-                <p className="text-gray-400 text-white">Satisfaction Rate</p>
-              </div>
-              <div className="text-center">
-                <div className=" text-3xl md:text-4xl font-bold text-primary mb-2">24/7</div>
-                <p className="text-gray-400 text-white">Customer Support</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
-        <div className="animate-bounce">
-          <div className="w-1 h-16 rounded-full bg-gradient-to-b from-primary to-transparent"></div>
-        </div>
+      {/* Search Widget Container */}
+      <div className="absolute sm:-bottom-80 -bottom-[600px] left-1/2 transform -translate-x-1/2 w-full max-w-4xl z-30">
+        <CarSearchWidget />
       </div>
     </div>
   );

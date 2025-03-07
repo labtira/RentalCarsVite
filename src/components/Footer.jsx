@@ -5,8 +5,11 @@ import {
   faFacebookF, 
   faTwitter, 
   faInstagram, 
-  faLinkedinIn 
+  faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faLocation, faClock} from '@fortawesome/free-solid-svg-icons';
+
+
 import { 
   PhoneIcon, 
   MailIcon, 
@@ -27,17 +30,17 @@ const Footer = () => {
               Premium car rental services with a wide range of vehicles to choose from. 
               Experience luxury and comfort on your journey.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="bg-darkgrey hover:bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300">
+            <div className="flex space-x-2">
+              <a href="#" className="bg-darkgrey hover:bg-primary text-white p-2 rounded-full flex items-center justify-center transition-colors duration-300">
                 <FontAwesomeIcon icon={faFacebookF} className="h-4 w-4" />
               </a>
-              <a href="#" className="bg-darkgrey hover:bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300">
+              <a href="#" className="bg-darkgrey hover:bg-primary text-white p-2 rounded-full flex items-center justify-center transition-colors duration-300">
                 <FontAwesomeIcon icon={faTwitter} className="h-4 w-4" />
               </a>
-              <a href="#" className="bg-darkgrey hover:bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300">
+              <a href="#" className="bg-darkgrey hover:bg-primary text-white p-2 rounded-full flex items-center justify-center transition-colors duration-300">
                 <FontAwesomeIcon icon={faInstagram} className="h-4 w-4" />
               </a>
-              <a href="#" className="bg-darkgrey hover:bg-primary text-white w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300">
+              <a href="#" className="bg-darkgrey hover:bg-primary text-white p-2 rounded-full flex items-center justify-center transition-colors duration-300">
                 <FontAwesomeIcon icon={faLinkedinIn} className="h-4 w-4" />
               </a>
             </div>
@@ -54,7 +57,7 @@ const Footer = () => {
                 <Link to="/products" className="text-grey hover:text-primary text-sm transition-colors duration-300">Our Fleet</Link>
               </li>
               <li>
-                <Link to="/services" className="text-grey hover:text-primary text-sm transition-colors duration-300">Services</Link>
+                <a href="#services" className="text-grey hover:text-primary text-sm transition-colors duration-300">Services</a>
               </li>
               <li>
                 <Link to="/contact" className="text-grey hover:text-primary text-sm transition-colors duration-300">Contact Us</Link>
@@ -70,19 +73,19 @@ const Footer = () => {
             <h4 className="text-white text-lg font-bold mb-4">Contact Info</h4>
             <ul className="space-y-3">
               <li className="flex items-center text-grey text-sm">
-                <PhoneIcon className="h-5 w-5 text-primary mr-3" />
+                <FontAwesomeIcon icon={faPhone} className="h-4 w-4 text-primary mr-3" />
                 <span>+212 123-456-7890</span>
               </li>
               <li className="flex items-center text-grey text-sm">
-                <MailIcon className="h-5 w-5 text-primary mr-3" />
+                <FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 text-primary mr-3" />
                 <span>contact@autorental.com</span>
               </li>
               <li className="flex items-center text-grey text-sm">
-                <LocationMarkerIcon className="h-5 w-5 text-primary mr-3" />
+                <FontAwesomeIcon icon={faLocation} className="h-4 w-4 text-primary mr-3" />
                 <span>123 Main Street, City Center, Morocco</span>
               </li>
               <li className="flex items-center text-grey text-sm">
-                <ClockIcon className="h-5 w-5 text-primary mr-3" />
+                <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-primary mr-3" />
                 <span>Open 24/7</span>
               </li>
             </ul>

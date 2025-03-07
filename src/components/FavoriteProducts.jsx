@@ -61,7 +61,7 @@ const FavoriteProducts = () => {
                   <h3 className="sm:text-xl text-3xl font-bold mb-4">{car.name}</h3>
                   
                   {/* Car Specifications */}
-                  <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="grid grid-cols-2 gap-4 mb-2">
                     <div className="flex items-center text-xs">
                       <CogIcon className="h-5 w-5 text-primary mr-2" />
                       <span>{car.specs.transmission}</span>
@@ -72,7 +72,7 @@ const FavoriteProducts = () => {
                     </div>
                   </div>
 
-                  <div className='flex justify-between items-center mt-8'>
+                  <div className='flex justify-between items-center '>
                     <div className='block'>
                       <span className="text-grey sm:text-xs text-md">Price</span>
                       <br />

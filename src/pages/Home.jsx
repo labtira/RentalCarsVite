@@ -14,7 +14,6 @@ const Home = () => {
     <div className='bg-black'>
       <Navbar />
       <HeroSection />
-      <CarSearchWidget />
       <FavoriteProducts />
       <Pub />
       <Products />

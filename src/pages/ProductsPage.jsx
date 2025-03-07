@@ -20,7 +20,7 @@ const ProductsPage = () => {
   const [maxPrice, setMaxPrice] = useState('');
   const [filteredProducts, setFilteredProducts] = useState(productsData.products);
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 9;
+  const productsPerPage = 6;
 
   const handleSearch = () => {
     setSearchQuery(searchTerm);
@@ -50,7 +50,7 @@ const ProductsPage = () => {
   return (
     <div className='bg-black'>
       <Navbar />
-      <section className="pt-40 pb-20 mx-5 sm:mx-auto">
+      <section className="pt-28 pb-20 mx-5 sm:mx-auto">
         <div className="container mx-auto md:max-w-screen-md text-white">
           <h2 className="text-3xl font-bold text-center mb-3">Our Rental Fleet</h2>
           <p className='text-grey mb-8 text-center'>Browse Our Complete Collection of Vehicles</p>

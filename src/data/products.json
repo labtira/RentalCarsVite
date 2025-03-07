@@ -227,6 +227,63 @@
         "bags": "2",
         "doors": "4"
       }
-    }
+    },
+    {
+      "id": 13,
+      "name": "Toyota Camry",
+      "price": "299.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Comfortable and reliable sedan perfect for family trips", 
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Toyota Camry",
+      "price": "299.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Comfortable and reliable sedan perfect for family trips",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Toyota Camry",
+      "price": "299.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Comfortable and reliable sedan perfect for family trips",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    } 
   ]
 } 

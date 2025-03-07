@@ -5,10 +5,11 @@ import {
   SearchIcon,
   UserGroupIcon
 } from '@heroicons/react/solid';
+import { Link } from 'react-router-dom';
 
 const CarSearchWidget = () => {
   return (
-    <div className="container mx-auto px-4 md:px-0 md:max-w-screen-md mt-10">
+    <div className="container mx-auto px-4 md:px-0 md:max-w-screen-md">
       <div className="bg-black/90 backdrop-blur-lg rounded-2xl p-6 shadow-2xl border border-greyshadow">
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-white mb-2">Find Your Perfect Rental Car</h3>
@@ -73,13 +74,13 @@ const CarSearchWidget = () => {
 
           {/* Search Button */}
           <div className="flex justify-center pt-4">
-            <button 
-              type="submit" 
+            <Link 
+              to="/products"
               className="bg-primary text-white px-8 py-3 rounded-lg font-bold flex items-center space-x-2 hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105"
             >
               <SearchIcon className="h-5 w-5" />
               <span>Search Available Cars</span>
-            </button>
+            </Link>
           </div>
         </form>
 
