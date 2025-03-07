@@ -1,0 +1,232 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Toyota Camry",
+      "price": "299.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/Flag_of_Germany.png",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Comfortable and reliable sedan perfect for family trips",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "price": "249.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Efficient and stylish compact car ideal for city driving",
+      "specs": {
+        "transmission": "Manual",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 3,
+      "name": "BMW 3 Series",
+      "price": "499.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Luxury sedan with premium features and sporty performance",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Mercedes C-Class",
+      "price": "549.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Elegant luxury car with advanced technology and comfort",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Volkswagen Golf",
+      "price": "199.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Versatile hatchback perfect for urban adventures",
+      "specs": {
+        "transmission": "Manual",
+        "fuel": "Diesel",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Audi A4",
+      "price": "449.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Premium sedan with cutting-edge technology and style",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Hyundai Tucson",
+      "price": "349.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Spacious SUV perfect for family trips and outdoor adventures",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Diesel",
+        "seats": "5",
+        "bags": "3",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Kia Sportage",
+      "price": "329.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Modern SUV with excellent fuel efficiency and comfort",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Diesel",
+        "seats": "5",
+        "bags": "3",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ford Focus",
+      "price": "229.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Reliable compact car with great handling and efficiency",
+      "specs": {
+        "transmission": "Manual",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Renault Clio",
+      "price": "179.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Economical city car perfect for urban driving",
+      "specs": {
+        "transmission": "Manual",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Peugeot 208",
+      "price": "189.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Stylish and efficient compact car for city driving",
+      "specs": {
+        "transmission": "Manual",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Citroën C3",
+      "price": "169.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Comfortable and practical city car with modern features",
+      "specs": {
+        "transmission": "Manual",
+        "fuel": "Petrol",
+        "seats": "5",
+        "bags": "2",
+        "doors": "4"
+      }
+    }
+  ]
+} 

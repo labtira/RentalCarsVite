@@ -1,0 +1,51 @@
+.slider-container {
+  margin: 0;
+}
+
+/* Customize dots */
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  color: #808080;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #5865F2;
+  opacity: 1;
+}
+
+/* Customize arrows */
+.slick-prev,
+.slick-next {
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #5865F2;
+  font-size: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .slick-prev {
+    left: -25px;
+  }
+  
+  .slick-next {
+    right: -25px;
+  }
+} 

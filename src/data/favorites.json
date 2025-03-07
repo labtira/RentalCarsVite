@@ -1,0 +1,112 @@
+{
+  "favorites": [
+    {
+      "id": 1,
+      "name": "BMW M4 Competition",
+      "price": "899.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "High-performance luxury sports car with exceptional handling",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "4",
+        "bags": "2",
+        "doors": "2"
+      },
+      "highlights": [
+        "510 HP Twin-Turbo Engine",
+        "0-60 mph in 3.8s",
+        "Premium Sound System",
+        "Sport Package"
+      ],
+      "rating": 4.9,
+      "totalRents": 128
+    },
+    {
+      "id": 2,
+      "name": "Range Rover Sport",
+      "price": "799.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Luxury SUV combining comfort with off-road capability",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Diesel",
+        "seats": "5",
+        "bags": "4",
+        "doors": "5"
+      },
+      "highlights": [
+        "Air Suspension",
+        "Panoramic Roof",
+        "360° Camera",
+        "Off-Road Package"
+      ],
+      "rating": 4.8,
+      "totalRents": 156
+    },
+    {
+      "id": 3,
+      "name": "Mercedes-AMG GT",
+      "price": "999.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Stunning performance car with iconic design",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "2",
+        "bags": "2",
+        "doors": "2"
+      },
+      "highlights": [
+        "577 HP V8 Engine",
+        "Race Mode",
+        "Carbon Fiber Trim",
+        "Premium Audio"
+      ],
+      "rating": 4.9,
+      "totalRents": 92
+    },
+    {
+      "id": 4,
+      "name": "Porsche 911 Carrera",
+      "price": "899.99",
+      "image": "/src/assets/img/golf8.jpg",
+      "images": [
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg",
+        "/src/assets/img/golf8.jpg"
+      ],
+      "description": "Legendary sports car offering unmatched driving experience",
+      "specs": {
+        "transmission": "Automatic",
+        "fuel": "Petrol",
+        "seats": "4",
+        "bags": "2",
+        "doors": "2"
+      },
+      "highlights": [
+        "379 HP Flat-Six Engine",
+        "Sport Chrono Package",
+        "Active Suspension",
+        "Launch Control"
+      ],
+      "rating": 4.9,
+      "totalRents": 143
+    }
+  ]
+} 
