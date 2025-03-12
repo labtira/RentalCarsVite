@@ -48,12 +48,12 @@ const CarDetails = () => {
   return (
     <div className='bg-black'>
       <Navbar />
-      <section className="pt-40 pb-20 mx-5 sm:mx-auto">
+      <section className="pt-24 pb-20 mx-5 sm:mx-auto">
         <div className="container mx-auto md:max-w-screen-md text-white">
           <div className="bg-black rounded-lg border-greyshadow border-2 overflow-hidden">
             {/* Car Image Slider */}
             <div className='relative w-full'>
-              <div className='relative h-[400px]'>
+              <div className='relative sm:h-[400px] h-[200px]'>
                 <img 
                   src={car.images[currentImageIndex]} 
                   alt={`${car.name} - Image ${currentImageIndex + 1}`} 

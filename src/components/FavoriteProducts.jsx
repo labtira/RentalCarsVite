@@ -48,9 +48,13 @@ const FavoriteProducts = () => {
           {favoritesData.favorites.map((car) => (
             <div key={car.id} className="px-2">
               <div className="bg-black rounded-lg border-greyshadow border-2">
-                <div className='w-full'>
-                  <div className="relative">
-                    <img src={car.image} alt={car.name} className='left-0 top-0 sm:h-40 h-60 rounded-t-lg w-full bg-cover aspect-auto' />
+                <div className="relative w-full pt-[56.25%]">
+                  <div className="absolute inset-0">
+                    <img 
+                      src={car.image} 
+                      alt={car.name} 
+                      className="w-full h-full object-cover rounded-t-lg"
+                    />
                     <div className="absolute top-2 right-2 flex items-center bg-black bg-opacity-75 px-2 py-1 rounded">
                       <StarIcon className="h-4 w-4 text-yellow-400 mr-1" />
                       <span className="text-sm font-bold">{car.rating}</span>
@@ -72,7 +76,7 @@ const FavoriteProducts = () => {
                     </div>
                   </div>
 
-                  <div className='flex justify-between items-center '>
+                  <div className='flex justify-between items-center'>
                     <div className='block'>
                       <span className="text-grey sm:text-xs text-md">Price</span>
                       <br />
@@ -85,7 +89,7 @@ const FavoriteProducts = () => {
                     </div>
                   </div>
                   <div className='flex justify-center items-center w-full mt-4'>
-                    <Link to={`/products/${car.id}`} className="ring-green ring-1 text-green sm:px-4 px-6 py-2 rounded-md hover:bg-blue-700 flex justify-center items-center sm:text-xs text-md font-bold w-full">
+                    <Link to={`/products/${car.id}`} className="ring-green ring-1 text-green hover:text-white hover:bg-green sm:px-4 px-6 py-2 rounded-md flex justify-center items-center sm:text-xs text-md font-bold w-full">
                       <FontAwesomeIcon icon={faWhatsapp} className='w-5 h-5 mr-1' />Order Now
                     </Link>
                   </div>

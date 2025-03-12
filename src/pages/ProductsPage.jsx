@@ -11,6 +11,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Navbar from '../components/Navbar';
+import SEO from '../components/SEO';
 import productsData from '../data/products.json';
 
 const ProductsPage = () => {
@@ -45,10 +46,44 @@ const ProductsPage = () => {
   const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  // Structured data for car rental offers
+  const carRentalOffersStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": filteredProducts.map((product, index) => ({
+      "@type": "Car",
+      "position": index + 1,
+      "name": product.name,
+      "description": product.description,
+      "image": product.image,
+      "brand": product.name.split(' ')[0],
+      "model": product.name.split(' ').slice(1).join(' '),
+      "offers": {
+        "@type": "Offer",
+        "price": product.price,
+        "priceCurrency": "MAD",
+        "availability": "https://schema.org/InStock"
+      }
+    }))
+  };
 
   return (
     <div className='bg-black'>
+      <SEO 
+        title="Our Rental Fleet | Available Cars"
+        description="Browse our extensive collection of rental cars in Morocco. Find the perfect vehicle for your needs, from luxury cars to economic options. Best prices guaranteed."
+        keywords="car fleet Morocco, rental cars available, luxury car collection, SUV rental, car hire Morocco, daily car rental, premium vehicles"
+        type="product.group"
+        structuredData={carRentalOffersStructuredData}
+      />
       <Navbar />
       <section className="pt-28 pb-20 mx-5 sm:mx-auto">
         <div className="container mx-auto md:max-w-screen-md text-white">
@@ -112,8 +147,12 @@ const ProductsPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {currentProducts.map((product) => (
               <div key={product.id} className="bg-black rounded-lg border-greyshadow border-2">
-                <div className='w-full'>
-                  <img src={product.image} alt={product.name} className='left-0 top-0 sm:h-40 h-60 rounded-t-lg w-full bg-cover aspect-auto' />
+                <div className="relative w-full pt-[56.25%]"> {/* 16:9 aspect ratio container */}
+                  <img 
+                    src={product.image} 
+                    alt={product.name} 
+                    className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
+                  />
                 </div>
                 <div className='p-3 mt-2'>
                   <h3 className="sm:text-xl text-3xl font-bold mb-4">{product.name}</h3>
