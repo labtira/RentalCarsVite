@@ -5,7 +5,7 @@ const Pub = () => {
   return (
     <section className="py-20 mx-5 sm:mx-auto">
       <div className="container mx-auto md:max-w-screen-md">
-        <div style={{backgroundImage: 'url(src/assets/img/car2.gif)', position: 'relative', backgroundSize: 'cover', backgroundPosition: 'center'}} className="bg-gradient-to-r from-primary to-black rounded-2xl p-5 text-white relative overflow-hidden">
+        <div style={{backgroundImage: 'url(/img/car2.gif)', position: 'relative', backgroundSize: 'cover', backgroundPosition: 'center'}} className="bg-gradient-to-r from-primary to-black rounded-2xl p-5 text-white relative overflow-hidden">
           {/* Background Pattern */}
           {/* <div className="absolute inset-0 opacity-40">
             <div className="absolute transform rotate-12 -right-20 -top-20">
