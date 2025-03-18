@@ -25,7 +25,8 @@ const CarSearchWidget = () => {
                 <CalendarIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-primary" />
                 <input 
                   type="date" 
-                  className="w-full bg-darkgrey border border-greyshadow text-white pl-10 pr-4 py-3 rounded-lg focus:outline-none focus:border-primary text-xs"
+                  className="w-full bg-darkgrey border border-greyshadow text-white pl-10 pr-4 py-3 rounded-lg focus:outline-none focus:border-primary text-xs appearance-none"
+                  style={{ WebkitAppearance: 'none' }}
                 />
               </div>
             </div>
@@ -37,7 +38,8 @@ const CarSearchWidget = () => {
                 <CalendarIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-primary" />
                 <input 
                   type="date" 
-                  className="w-full bg-darkgrey border border-greyshadow text-white pl-10 pr-4 py-3 rounded-lg focus:outline-none focus:border-primary text-xs"
+                  className="w-full bg-darkgrey border border-greyshadow text-white pl-10 pr-4 py-3 rounded-lg focus:outline-none focus:border-primary text-xs appearance-none"
+                  style={{ WebkitAppearance: 'none' }}
                 />
               </div>
             </div>
@@ -50,7 +52,9 @@ const CarSearchWidget = () => {
               <label className="block text-grey text-sm mb-2">Pick-up Location</label>
               <div className="relative">
                 <LocationMarkerIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-primary" />
-                <select className="w-full bg-darkgrey border border-greyshadow text-white pl-10 pr-4 py-3 rounded-lg focus:outline-none focus:border-primary text-xs">
+                <select className="w-full bg-darkgrey border border-greyshadow text-white pl-10 pr-4 py-3 rounded-lg focus:outline-none focus:border-primary text-xs appearance-none"
+                  style={{ WebkitAppearance: 'none' }}
+                >
                   <option value="">Select location</option>
                   <option value="airport">Airport Terminal</option>
                   <option value="city">City Center</option>
@@ -90,4 +94,4 @@ const CarSearchWidget = () => {
   );
 };
 
-export default CarSearchWidget; 
+export default CarSearchWidget;
